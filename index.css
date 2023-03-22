@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Open+Sans:wght@400;600;700&family=Overpass:wght@400;700&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home_header{
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-family: "Poppins";
+}
+.home_header > img{
+    height: 60px;
+}
+.home_header_left{
+    width: 15vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_header_left > select{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    font-family: "Poppins";
+    background-color: transparent;
+    border: 1px solid white;
+}
+.home_header_left > button{
+    height: 30px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins";
+}
+.home_header_left > button:hover{
+    cursor: pointer;
+}
+.overlay_img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.overlay_img > img{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: #000;
+}
+.membership_Comp{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+}
+.membership_Comp > h3{
+    font-size: 3rem;
+}
+.membership_Comp > p{
+    font-size: 1.5rem;
+}
+.input_mem{
+    font-size: 1.5rem;
+}
+.input_mem > div{
+    display: flex;
+
+    justify-content: center;
+}
+.input_mem > div > input{
+    height: 50px;
+    width: 35vw;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: "Poppins";
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input_mem > div > button{
+    height: 50px;
+    width: 10vw;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+}
